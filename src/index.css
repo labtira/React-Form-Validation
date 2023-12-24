@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50rem;
+  height: 30rem;
+  box-shadow: 0 0 10px  rgba(0, 0, 0, 0.316); 
+  border-radius: 10px;
+}
+
+.card-image {
+  background: url("./assets/mehdi.png");
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px 10px;
+  margin: 5px;
+  width: 20rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+.error {
+  font-family: sans-serif;
+  color: red;
+}
+
+.submit-btn {
+  width: 80%;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: transparent;
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
